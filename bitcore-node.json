@@ -1,0 +1,29 @@
+{
+    "network": "testnet",
+    "port": 23080,
+    
+    "services": [
+        "bitcoind",
+        "web",
+        "insight-bha-api",
+        "insight-bha"
+    ],
+    "servicesConfig": {
+        "insight-bha": {
+            "11routePrefix": "insight-bha",
+            "apiPrefix": "insight-bha-api"
+        },
+        "bitcoind": {
+            "connect": [{
+                "rpchost": "127.0.0.1",
+                "rpcport": 23012,
+                "rpcuser": "1234567890",
+                "rpcpassword": "1234567890",
+                "zmqpubrawtx": "tcp://127.0.0.1:23091"
+            }]
+        },
+        "web":{
+            "jsonRequestLimit":"500kb"
+        }
+    }
+}
