@@ -1,6 +1,6 @@
 {
-    "network": "testnet",
-    "port": 23080,
+    "network": "mainnet",
+    "port": 13880,
     
     "services": [
         "bitcoind",
@@ -16,10 +16,10 @@
         "bitcoind": {
             "connect": [{
                 "rpchost": "127.0.0.1",
-                "rpcport": 23012,
+                "rpcport": 13802,
                 "rpcuser": "1234567890",
                 "rpcpassword": "1234567890",
-                "zmqpubrawtx": "tcp://127.0.0.1:23091"
+                "zmqpubrawtx": "tcp://127.0.0.1:13891"
             }]
         },
         "web":{

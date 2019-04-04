@@ -4,7 +4,7 @@
     "license": "MIT",
     "readme": "README.md",
     "scripts": {
-        "start": "node start.js start"
+        "start": "node start.js -- start"
     },
     "dependencies": {
         "bitcore-lib": "git+https://github.com/cqcrytohub/bithao-lib.git",
