@@ -7,7 +7,7 @@
         "start": "node start.js -- start"
     },
     "dependencies": {
-        "bitcore-lib": "git+https://github.com/cqcrytohub/bithao-lib.git",
+        "bitcore-lib": "https://github.com/cqcrytohub/bithao-lib.git",
         "bitcore-node": "https://github.com/cqcrytohub/bitcore-node.git",
         "insight-bha": "https://github.com/cqcrytohub/insight-bha.git",
         "insight-bha-api": "https://github.com/cqcrytohub/insight-bha-api.git"
